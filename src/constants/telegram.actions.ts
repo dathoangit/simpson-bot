@@ -1,0 +1,13 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
+export enum TELEGRAM_ACTION {
+  START = 'START',
+  PROFILE = 'PROFILE',
+  HOW_TO_PLAY = 'HOW_TO_PLAY',
+  INVITE_FRIEND = 'INVITE_FRIEND',
+  JOIN_NOCOIN_COMMUNITY = 'JOIN_NOCOIN_COMMUNITY',
+  MISSION = 'MISSION',
+  ADD_INFO = 'ADD_INFO',
+  JOIN_AIRDROP = 'JOIN_AIRDROP',
+  REGISTER = 'REGISTER',
+}

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  jerry-telegram:
+    env_file:
+      - .env
+    container_name: jerry-telegram
+    restart: always
+    build: .
+    ports:
+      - "7000:7000"
+    environment:
+      PORT: 7000
